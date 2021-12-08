@@ -19,11 +19,12 @@ body::before{
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-image: url(../images/setup.jpg);
+    background-image: url("https://krazzzi.github.io/images/setup.jpg");
     background-size: cover;
     background-position: top-center;
     opacity: 0.15;
     filter: blur(7px);
+    -webkit-transform: translateZ(0); 
 }
 
 nav, footer, #about-text, #contact-container {
