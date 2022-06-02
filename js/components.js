@@ -16,8 +16,8 @@ function ProjectList() {
   return React.createElement("div", {
     id: "img-container"
   }, React.createElement(Project, {
-    img: "",
-    caption: "snake xna",
+    img: "assets/images/Aplus Logo Certified CE.png",
+    caption: "CompTIA A+",
     url: ""
   }), React.createElement(Project, {
     img: "..images/",
