@@ -20,12 +20,12 @@ function ProjectList() {
     caption: "CompTIA A+",
     url: ""
   }), React.createElement(Project, {
-    img: "..images/",
-    caption: "reaction test",
+    img: "assets/images/",
+    caption: "",
     url: ""
   }), React.createElement(Project, {
-    img: "images/CalcRN.png",
-    caption: "calculator rn",
+    img: "assets/images/",
+    caption: "",
     url: ""
   }));
 }
