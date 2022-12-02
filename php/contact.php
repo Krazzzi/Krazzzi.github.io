@@ -1,11 +1,11 @@
 <?php
   
-if(isset($_POST['submit'])) 
+if(isset($_POST['submit'])) {
     $name = $_POST["name"];
     $mailFrom = $_POST["mail"];
     $message = $_POST["message"];
       
-    $recipient = "repair@krazzzi.me";
+    $recipient = "business@krazzzi.me";
  
     $headers  = "From: ".$mailFrom;
     $txt = "You have recieved an e-mail form ".$name.".\n\n".$message;

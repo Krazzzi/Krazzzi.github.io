@@ -16,17 +16,13 @@ function ProjectList() {
   return React.createElement("div", {
     id: "img-container"
   }, React.createElement(Project, {
-    img: "assets/images/Aplus Logo Certified CE.png",
-    caption: "CompTIA A+",
-    url: ""
+    img: "images/Aplus Logo Certified CE.png",
+    caption: "CompTIA A +",
+    url: "https://www.credly.com/earner/earned/badge/c1e2034a-c4be-416b-a845-b51e2e2be45d"
   }), React.createElement(Project, {
-    img: "assets/images/",
-    caption: "",
-    url: ""
-  }), React.createElement(Project, {
-    img: "assets/images/",
-    caption: "",
-    url: ""
+    img: "images/NetworkPlus Logo Certified CE.png",
+    caption: "CompTIA Network +",
+    url: "https://www.credly.com/earner/earned/badge/de9038c6-3a7d-4822-883f-34178f606bd3"
   }));
 }
 
