@@ -23,6 +23,10 @@ function ProjectList() {
     img: "images/NetworkPlus Logo Certified CE.png",
     caption: "CompTIA Network +",
     url: "https://www.credly.com/earner/earned/badge/de9038c6-3a7d-4822-883f-34178f606bd3"
+  }), React.createElement(Project, {
+    img: "images/SecurityPlus Logo Certified CE.png",
+    caption: "CompTIA Security +",
+    url: "https://www.credly.com/earner/earned/badge/9a2cb4c3-e521-442f-9a63-c39f1bea8a9b"
   }));
 }
 
